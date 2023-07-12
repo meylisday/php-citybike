@@ -1,0 +1,15 @@
+{
+    "name": "user/php-candidate-task",
+    "authors": [
+        {
+            "name": "meylisday",
+            "email": "victory.sett@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-0": { "": "app/" }
+    }
+}
