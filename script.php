@@ -1,11 +1,10 @@
 <?php
-//function custom_autoloader($class): void
-//{
-//    include 'src/' . $class . '.php';
-//}
-//
-//spl_autoload_register('custom_autoloader');
 require './vendor/autoload.php';
+
+use App\Api\CityBikeApi;
+use App\CityBike;
+use App\FileFactory;
+
 $apiUrl = "https://api.citybik.es/v2/networks/bikeu-bra";
 
 try {

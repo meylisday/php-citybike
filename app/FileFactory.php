@@ -1,4 +1,10 @@
 <?php
+namespace App;
+
+use App\Interfaces\IFile;
+use App\Files\Csv;
+use App\Files\Xml;
+use Exception;
 
 class FileFactory
 {

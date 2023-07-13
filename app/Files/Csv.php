@@ -1,4 +1,9 @@
 <?php
+namespace App\Files;
+
+use App\Interfaces\IFile;
+use RuntimeException;
+use SplFileObject;
 
 class Csv implements IFile
 {
