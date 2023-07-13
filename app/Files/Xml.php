@@ -1,4 +1,7 @@
 <?php
+namespace App\Files;
+
+use App\Interfaces\IFile;
 
 class Xml implements IFile
 {

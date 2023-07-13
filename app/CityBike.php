@@ -1,4 +1,7 @@
 <?php
+namespace App;
+
+use Exception;
 
 class CityBike
 {
@@ -32,7 +35,7 @@ class CityBike
         return $shortestDistances;
     }
 
-    private function getDistance(float $latitude1, float $longitude1, float $latitude2, float $longitude2): float
+    public function getDistance(float $latitude1, float $longitude1, float $latitude2, float $longitude2): float
     {
         $earth_radius = 6371;
 
